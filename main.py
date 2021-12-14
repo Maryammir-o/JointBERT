@@ -17,7 +17,7 @@ def main(args):
     trainer = Trainer(args, train_dataset, dev_dataset, test_dataset)
 
     if args.do_train:
-        trainer.load_model()
+#         trainer.load_model()
         trainer.train()
 
     if args.do_eval:
